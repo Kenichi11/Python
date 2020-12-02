@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+# dec2hex.py
+
+def dec2hex(dec):
+	hexValue = hex(dec)
+	HexS = str(hex(dec))
+	h = HexS.replace('0','')
+	print(dec,hexValue,h) #debug
+	return h
+	
+	def main():
+		print("* * * * * * *")
+		hexString = dec2hex(10)
+		print(10,hexString)
+		hexString = dec2hex(245)
+		print(245,hexString)
